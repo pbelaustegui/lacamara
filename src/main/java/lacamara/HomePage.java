@@ -22,6 +22,7 @@ public class HomePage extends WebPage {
     public HomePage(final PageParameters parameters) {
 
         // Add the simplest type of label
+        add(new Label("title", "La cámara de Mónica"));
         add(new Label("message", "La cámara de Mónica... en constucción"));
 
         // TODO Add your page's components here
