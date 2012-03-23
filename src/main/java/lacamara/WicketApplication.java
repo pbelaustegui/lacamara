@@ -1,5 +1,6 @@
 package lacamara;
 
+import lacamara.ui.containers.HomePage;
 import org.apache.wicket.protocol.http.WebApplication;
 
 /**
@@ -17,11 +18,10 @@ public class WicketApplication extends WebApplication
 	}
 	
 	/**
-	 * @see wicket.Application#getHomePage()
+	 * @see org.apache.wicket.Application#getHomePage()
 	 */
-	public Class getHomePage()
-	{
-		return HomePage.class;
-	}
+	public Class getHomePage() {
+        return HomePage.class;
+    }
 
 }
