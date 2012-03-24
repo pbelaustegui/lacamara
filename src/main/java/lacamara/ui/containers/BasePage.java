@@ -15,8 +15,9 @@ import org.apache.wicket.markup.html.resources.StyleSheetReference;
 public class BasePage extends WebPage{
 
     public BasePage(){
+        add(new StyleSheetReference("style", BasePage.class, "styles.css"));
         add(new Label("title", "La cámara de Mónica"));
         add(new Label("headerMessage", "La cámara de Mónica (En construcción)"));
-        add(new Label("footer", "............."));
+        add(new Label("footer", "."));
     }
 }
