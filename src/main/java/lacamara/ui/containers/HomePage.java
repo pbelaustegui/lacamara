@@ -1,6 +1,10 @@
 package lacamara.ui.containers;
 
+import lacamara.model.Photo;
+import lacamara.model.PhotoHome;
+import lacamara.ui.components.ExternalImageUrl;
 import org.apache.wicket.markup.html.basic.Label;
+import org.apache.wicket.markup.html.image.Image;
 
 /**
  * Created by IntelliJ IDEA.
@@ -12,6 +16,6 @@ import org.apache.wicket.markup.html.basic.Label;
 public class HomePage extends BasePage{
 
     public HomePage(){
-        add(new Label("bodyMessage", "."));
-    }
+        add(new PhotoListPanel("content", PhotoHome.getInstance().getPhotos()));
+    }                                
 }
