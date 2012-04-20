@@ -98,9 +98,29 @@
             <version>2.0</version>
         </dependency>
         <dependency>
-            <groupId>com.aetrion</groupId>
-            <artifactId>flickrapi</artifactId>
-            <version>1.2</version>
+            <groupId>com.google.gdata</groupId>
+            <artifactId>gdata-core</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.gdata</groupId>
+            <artifactId>gdata-media</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google</groupId>
+            <artifactId>google-collect</artifactId>
+            <version>1.0-rc1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google</groupId>
+            <artifactId>jsr</artifactId>
+            <version>305</version>
         </dependency>
 	</dependencies>
 
